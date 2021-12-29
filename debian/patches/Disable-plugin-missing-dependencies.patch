@@ -1,0 +1,22 @@
+From: Sophie Brun <sophie@offensive-security.com>
+Date: Wed, 20 Jan 2021 17:42:01 +0100
+Subject: Disable plugin missing dependencies
+
+Forwarded: not-needed
+---
+ plugins/missing_dependencies.sh | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/plugins/missing_dependencies.sh b/plugins/missing_dependencies.sh
+index 4cac7c6..cd88c3b 100644
+--- a/plugins/missing_dependencies.sh
++++ b/plugins/missing_dependencies.sh
+@@ -7,7 +7,7 @@ plugin_name="Missing dependencies auto-installation"
+ plugin_description="A plugin to autoinstall missing dependencies on some Operating Systems (Kali, Parrot, BlackArch)"
+ plugin_author="v1s1t0r"
+ 
+-plugin_enabled=1
++plugin_enabled=0
+ 
+ plugin_minimum_ag_affected_version="10.0"
+ plugin_maximum_ag_affected_version=""
